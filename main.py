@@ -11,7 +11,7 @@ header = {
     "Content-Type": "application/json"
 }
 
-r = requests.get("https://api.spotify.com/v1/me/following/contains?type=user&ids=ozigk9d0w2wxro185kog2sqgy,31fw6wvn2dawcuxc6oebducq32cm", headers=header)
+r = requests.get("https://api.spotify.com/v1/users/ozigk9d0w2wxro185kog2sqgy", headers=header)
 
 
 data = r.json()
