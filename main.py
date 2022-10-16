@@ -16,7 +16,5 @@ r = requests.get("https://api.spotify.com/v1/users/ozigk9d0w2wxro185kog2sqgy", h
 
 data = r.json()
 
-# for key, value in data.items():
-#     print(f"{key}: {value}")
-
-print(data)
+for key, value in data.items():
+    print(f"{key}: {value}")
